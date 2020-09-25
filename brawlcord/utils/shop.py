@@ -200,7 +200,10 @@ class Shop:
 
         for brawler in self.BRAWLERS_DATA:
             owned = self.BRAWLERS_DATA[brawler]["skins"]
-            brawler_skins = self.ALL_BRAWLERS[brawler]["skins"]
+            try:
+                brawler_skins = self.ALL_BRAWLERS[brawler]["skins"]
+            except KeyError:
+                continue
             for skin in brawler_skins:
                 if skin not in owned:
                     if brawler_skins[skin][0] != -1:
