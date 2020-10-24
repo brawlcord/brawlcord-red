@@ -18,10 +18,10 @@ from .utils.constants import (
     BRAWLSTARS,
     BRAWLCORD_CODE_URL,
     COMMUNITY_SERVER,
+    CREATOR_LINK,
     EMBED_COLOR,
     FAN_CONTENT_POLICY,
     INVITE_URL,
-    REDDIT_LINK,
     SOURCE_LINK
 )
 from .utils.core import maintenance
@@ -165,6 +165,9 @@ class MiscMixin(MixinMeta):
                 " Please give/ask someone to give me that permission."
             )
 
+    # If you're selfhosting the bot, you may not remove or disable this command.
+    # Furthermore, you may not remove the names and links of the creator(s) listed below.
+    # You may add your own name and link, but other names and links must be retained.
     @commands.command(name="info", aliases=["brawlcord"])
     async def _brawlcord(self, ctx: Context):
         """Show info about Brawlcord"""
@@ -192,7 +195,7 @@ class MiscMixin(MixinMeta):
 
         embed.add_field(name="About Brawlcord", value=info, inline=False)
 
-        embed.add_field(name="Creator", value=f"[Snowsee]({REDDIT_LINK})")
+        embed.add_field(name="Creator", value=f"[Snowsee]({CREATOR_LINK})")
 
         page = urllib.request.urlopen(BRAWLCORD_CODE_URL)
 
