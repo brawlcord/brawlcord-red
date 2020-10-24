@@ -14,6 +14,7 @@ BRAWLCORD_CODE_URL = (
     "release/brawlcord/brawlcord.py"
 )
 REDDIT_LINK = "https://www.reddit.com/user/Snowsee"
+CREATOR_LINK = "https://github.com/snowsee"
 SOURCE_LINK = "https://github.com/brawlcord/brawlcord"
 
 default_stats = {
