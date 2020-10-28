@@ -59,6 +59,8 @@ While you can host an instance of Brawlcord yourself, please use [the public Bra
 
 **Important Note:** Brawlcord is getting rewritten as a standalone bot in a different programming language. The future versions of the bot will not be available as Red cogs. See [this](https://brawlcord.github.io/discontinuing-red) for more info.
 
+**Note:** Brawlcord requires the `Members` priveleged intent to be enabled to work properly. The bot can work without it, but some commands may have limited functionality. Brawlcord does not require the `Presence` privileged intent to be enabled. However, Red Bot requires both the privileged intents to be enabled. It is not an issue for bots in less than 100 servers, however, it might be a concern for bots in more than 100 servers that do not have [intents whitelisted](https://support.discord.com/hc/en-us/articles/360040720412-Bot-Verification-and-Data-Whitelisting#privileged-intent-whitelisting). You may use [this fork](https://github.com/snowsee/Red-DiscordBot) of Red to run the bot without any privileged intents. More information about enabling intents can be found on the Red installation guide linked below.
+
 First make sure you have Red Bot V3 installed. Instructions to install Red Bot can be found [here](https://github.com/Cog-Creators/Red-DiscordBot#installation).
 
 Next add my repo using the following command:
