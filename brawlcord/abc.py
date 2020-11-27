@@ -877,6 +877,8 @@ class MixinMeta(ABC):
             ],
             "Bounty": ["bounty", "bonty", "bunty"],
             "Heist": ["heist", "heis"],
+            "Lone Star": ["lone star", "lonestar", "ls", "lone"],	
+            "Takedown": ["takedown", "take down", "td"],
             "Robo Rumble": [
                 "robo rumble", "rr", "roborumble", "robo", "rumble"
             ],
