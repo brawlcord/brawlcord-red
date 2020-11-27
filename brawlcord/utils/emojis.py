@@ -131,6 +131,10 @@ sp_icons = {
     "Tick": [
         "<:WellOiled:645349549283606529>",
         "<:AutomaTickReload:756855034414759986>"
+    ],
+     "Rosa": [
+        "<:PlantLife:645349549153452082>",
+        "<:SpiritSlap:756856153706594344>"
     ]
 }
 
