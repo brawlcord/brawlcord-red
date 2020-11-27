@@ -4,7 +4,7 @@
         "health": 3600,
         "attack": {
             "name": "Buckshot",
-            "damage": 300,
+            "damage": 340,
             "desc": "Shelly's boomstick fires a wide spread of pellets to a medium range. The more pellets hit, the greater the damage.",
             "range": 7.67,
             "reload": 1.5,
@@ -16,7 +16,7 @@
         "unlockTrp": 0,
         "ult": {
             "name": "Super Shell",
-            "damage": 320,
+            "damage": 360,
             "desc": "Shelly's Super Shell obliterates both cover and enemies. Any survivors get knocked back.",
             "range": 7.33,
             "projectiles": 9,
@@ -41,7 +41,7 @@
         "health": 4000,
         "attack": {
             "name": "Rupture",
-            "damage": 800,
+            "damage": 1100,
             "desc": "Nita sends forth a shockwave, damaging enemies caught in the tremor.",
             "range": 5.5,
             "reload": 1.25,
@@ -54,8 +54,8 @@
             "name": "Overbearing",
             "desc": "Nita summons the spirit of Big Baby Bear to hunt down her enemies.",
             "spawn": {
-                "health": 4000,
-                "damage": 400,
+                "health": 5100,
+                "damage": 300,
                 "range": 1.33,
                 "speed": 620,
                 "name": "Bear"
@@ -82,7 +82,7 @@
         "health": 2800,
         "attack": {
             "name": "Six Shooters",
-            "damage": 320,
+            "damage": 360,
             "desc": "Colt shoots six straight long-range shots out of his revolvers.",
             "range": 8.67,
             "reload": 1.5,
@@ -94,7 +94,7 @@
         "unlockTrp": 60,
         "ult": {
             "name": "Bullet Storm",
-            "damage": 300,
+            "damage": 380,
             "desc": "Colt rattles off a massive burst of bullets that shoot extra far and destroy cover.",
             "range": 11,
             "projectiles": 12,
@@ -118,10 +118,10 @@
     },
     "Bull": {
         "desc": "Bull deals massive damage up close with his shotgun. For his Super move, he charges through barriers and knocks back enemies!",
-        "health": 4900,
+        "health": 4700,
         "attack": {
             "name": "Double-Barrel",
-            "damage": 400,
+            "damage": 320,
             "desc": "Bull's double-barreled shotgun deals heavy damage. It has very short range, so Bull likes to get up close and personal.",
             "range": 5,
             "reload": 1.6,
@@ -133,7 +133,7 @@
         "unlockTrp": 250,
         "ult": {
             "name": "Bulldozer",
-            "damage": 800,
+            "damage": 1000,
             "desc": "Bull puts his head down and bulldozes through opponents and obstacles. He's always been headstrong!",
             "range": 11.67,
             "projectiles": 1
@@ -155,10 +155,10 @@
     },
     "Jessie": {
         "desc": "Jessie's Shock Rifle shoots energy orbs that bounce between enemies. Her Super deploys a cute but deadly gun turret!",
-        "health": 3200,
+        "health": 3400,
         "attack": {
             "name": "Shock Rifle",
-            "damage": 840,
+            "damage": 1100,
             "desc": "Jessie fires off an energy orb. After hitting a target, the orb bounces at the next target in range, hitting up to three enemies.",
             "range": 9,
             "reload": 1.8,
@@ -171,8 +171,8 @@
             "name": "Scrappy!",
             "desc": "Jessie deploys a gun turret that automatically shoots at enemies. It's made of 100% recycled materials!",
             "spawn": {
-                "health": 2800,
-                "damage": 260,
+                "health": 3200,
+                "damage": 520,
                 "range": 4.67,
                 "speed": 0,
                 "name": "Scrappy"
@@ -199,7 +199,7 @@
         "health": 2800,
         "attack": {
             "name": "Rockin' Rocket",
-            "damage": 1100,
+            "damage": 1200,
             "desc": "Brock lets fly with a single Rockin' Rocket that really goes the distance.",
             "range": 10,
             "reload": 2.1,
@@ -210,7 +210,7 @@
         "unlockTrp": 1000,
         "ult": {
             "name": "Rocket Rain",
-            "damage": 290,
+            "damage": 310,
             "desc": "Brock fires a rocket barrage that takes out enemies and obstacles. He only wants to see you bathing in the Rocket Rain!",
             "range": 8,
             "projectiles": 9,
@@ -236,7 +236,7 @@
         "health": 2800,
         "attack": {
             "name": "Short Fure",
-            "damage": 760,
+            "damage": 920,
             "desc": "Mike tosses two sticks of dynamite, passing over any obstacles in the way. The fuses are cut as short as Mike's explosive temper!",
             "range": 7,
             "reload": 1.7,
