@@ -67,13 +67,14 @@
             "desc": "Nita recovers 500 health whenever her bear hits an enemy. When Nita deals damage, her bear regains 500 health."
         },
         "sp2": {
-            "name": "Happy Bear",
+            "name": "Hyper Bear",
             "desc": "Nita's bear attacks faster. Time between swipes is reduced by 60%."
         },
         "skins": {
             "Panda": [30, -1],
             "Red Nose": [-1, -1],
-            "Shiba": [150, -1]
+            "Shiba": [150, -1],
+            "Koala": [80, -1]
         }
     },
     "Colt": {
@@ -81,7 +82,7 @@
         "health": 2800,
         "attack": {
             "name": "Six Shooters",
-            "damage": 300,
+            "damage": 320,
             "desc": "Colt shoots six straight long-range shots out of his revolvers.",
             "range": 8.67,
             "reload": 1.5,
@@ -110,7 +111,9 @@
         "skins": {
             "Rockstar": [30, -1],
             "Royal Agent": [-1, -1],
-            "Outlaw": [-1, 500]
+            "Outlaw": [-1, 500],
+            "Corsair": [-1, -1],
+            "Challenger": [150, -1]
         }
     },
     "Bull": {
@@ -146,7 +149,8 @@
         "skins": {
             "Viking": [80, -1],
             "Touchdown": [80, -1],
-            "Linebacker": [-1, 2500]
+            "Linebacker": [-1, 2500],
+            "Barbarian King": [-1, -1]
         }
     },
     "Jessie": {
@@ -186,7 +190,8 @@
         "skins": {
             "Summer": [80, -1],
             "Dragon Knight": [150, -1],
-            "Shadow Knight": [-1, 10000]
+            "Shadow Knight": [-1, 10000],
+            "Tanuki": [150, -1]
         }
     },
     "Brock": {
@@ -259,7 +264,8 @@
         "skins": {
             "Santa": [-1, -1],
             "Spicy": [150, -1],
-            "Robo": [300, -1]
+            "Robo": [300, -1],
+            "Coach": [150, -1]
         }
     },
     "Bo": {
@@ -296,7 +302,9 @@
         "skins": {
             "Mecha": [300, -1],
             "Light Mecha": [-1, 10000],
-            "Gold Mecha": [-1, 50000]
+            "Gold Mecha": [-1, 50000],
+            "Horus": [150, -1],
+            "Underworld": [150, -1]
         }
     },
     "El Primo": {
@@ -332,7 +340,8 @@
         "skins": {
             "El Rudo": [80, -1],
             "El Rey": [150, -1],
-            "El Brown": [150, -1]
+            "El Brown": [150, -1],
+            "El Atomico": [-1, 10000]
         }
     },
     "Barley": {
@@ -370,6 +379,7 @@
             "Golden": [30, -1],
             "Wizard": [-1, -1],
             "Bakesale": [150, -1],
+            "Maple": [80, -1],
             "Red Wizard": [-1, 2500]
         }
     },
@@ -378,7 +388,7 @@
         "health": 3800,
         "attack": {
             "name": "Power Chord",
-            "damage": 660,
+            "damage": 700,
             "desc": "Poco strums his guitarrón, sending forward bone-jarring sound waves. Enemies hit by the waves take damage.",
             "range": 7.33,
             "reload": 1.6,
@@ -390,7 +400,7 @@
         "ult": {
             "name": "Encore",
             "damage": null,
-            "heal": 2100,
+            "heal": 2500,
             "desc": "Poco heals himself and all friends he can reach with his uplifting melody. Does not affect enemies.",
             "range": 10.33,
             "projectiles": 1,
@@ -405,7 +415,8 @@
             "desc": "Poco’s Super now also hits enemies, dealing 800 damage."
         },
         "skins": {
-            "Serenade": [150, -1]
+            "Serenade": [150, -1],
+            "Pirate": [-1, -1]
         }
     },
     "Rico": {
@@ -441,7 +452,9 @@
         },
         "skins": {
             "Loaded": [150, -1],
-            "Popcorn": [150, -1]
+            "Popcorn": [150, -1],
+            "Ricochet": [-1, -1],
+            "Guard": [150, -1]
         }
     },
     "Darryl": {
@@ -475,7 +488,8 @@
             "desc": "When Darryl uses his Super, he doubles his reload speed for 5.0 seconds."
         },
         "skins": {
-            "Dumpling": [-1, -1]
+            "Dumpling": [-1, -1],
+            "Mascot": [80, -1]
         }
     },
     "Penny": {
@@ -514,7 +528,8 @@
         },
         "skins": {
             "Lil Helper": [-1, -1],
-            "Bunny": [80, -1]
+            "Bunny": [80, -1],
+            "Dark Bunny": [-1, 10000]
         }
     },
     "Carl": {
@@ -522,7 +537,7 @@
         "health": 4400,
         "attack": {
             "name": "Pickaxe",
-            "damage": 600,
+            "damage": 750,
             "desc": "Carl throws his Pickaxe like a boomerang. After he catches the returning Pickaxe, he can throw it again.",
             "range": 8,
             "reload": 0.5,
@@ -589,7 +604,8 @@
         "skins": {
             "Pink": [-1, 500],
             "Calavera": [-1, -1],
-            "Cupid": [150, -1]
+            "Cupid": [150, -1],
+            "Choco": [80, -1]
         }
     },
     "Pam": {
@@ -597,7 +613,7 @@
         "health": 4500,
         "attack": {
             "name": "Scrapstorm",
-            "damage": 260,
+            "damage": 230,
             "desc": "Pam sprays a large area with bursts of scrap metal. Safety goggles advised!",
             "range": 9,
             "reload": 1.3,
@@ -612,9 +628,9 @@
             "desc": "Pam's healing turret will fix up her and teammates who stay in its area of effect.",
             "extra": "Heal per second",
             "spawn": {
-                "health": 2800,
+                "health": 1900,
                 "damage": null,
-                "heal": 320,
+                "heal": 290,
                 "range": 5,
                 "name": "Healing Turret"
             },
@@ -628,14 +644,16 @@
             "name": "Mama's Squeeze",
             "desc": "Healing turret now also damages enemies for 500 damage per second."
         },
-        "skins": {}
+        "skins": {
+        "Holiday": [80, -1]
+        }
     },
     "Mortis": {
         "desc": "Mortis dashes forward with each swing of his shovel. As his Super attack, he sends a cloud of bats to damage enemies and heal himself!",
         "health": 3800,
         "attack": {
             "name": "Shovel Swings",
-            "damage": 1200,
+            "damage": 1500,
             "desc": "Mortis dashes forward with a sharp swing of his shovel, creating business opportunities for himself.",
             "range": 2.67,
             "reload": 2.4,
@@ -662,7 +680,8 @@
         "skins": {
             "Top Hat": [0, 0],
             "Rockabilly": [150, -1],
-            "Night Witch": [150, -1]
+            "Night Witch": [150, -1],
+            "Rogue": [150, -1]
         }
     },
     "Frank": {
@@ -739,7 +758,7 @@
         "health": 2400,
         "attack": {
             "name": "Needle Grenade",
-            "damage": 520,
+            "damage": 490,
             "desc": "Spike fires off a small cactus that explodes, shooting spikes in different directions.",
             "range": 7.67,
             "reload": 2,
@@ -767,7 +786,8 @@
         },
         "skins": {
             "Sakura": [80, -1],
-            "Robo": [150, -1]
+            "Robo": [150, -1],
+            "Mask": [30, -1]
         }
     },
     "Crow": {
@@ -881,7 +901,7 @@
         },
         "skins": {
             "Pirate": [80, -1],
-            "Evil Gene": [150, -1]
+            "Evil": [150, -1]
         }
     },
     "Tick": {
@@ -889,7 +909,7 @@
         "health": 2200,
         "attack": {
             "name": "Minimines",
-            "damage": 680,
+            "damage": 710,
             "desc": "Tick lobs a cluster of mines that separate before landing. The mines explode on contact with a target, or after a few seconds.",
             "range": 7,
             "reload": 2.2,
@@ -917,5 +937,43 @@
         "skins": {
             "King Crab": [80, -1]
         }
+    },
+    "Rosa": {
+        "desc": "This boxing botanist will plant her feet and go toe to toe! Her Super gives her tough, vegan protective gear.",
+        "health": 5200,
+        "attack": {
+            "name": "Hands of Stone",
+            "damage": 460,
+            "desc": "Rosa throws a flurry of powerful punches with perfect technique!",
+            "range": 3.67,
+            "reload": 1,
+            "projectiles": 3,
+            "extra": "Damage per punch"
+        },
+        "speed": 770,
+        "rarity": "Rare",
+        "unlockTrp": -1,
+        "ult": {
+            "name": "Strong Stuff",
+            "damage": 0,
+            "desc": "Rosa gets a second skin of tough vine for 3 seconds, decreasing all damage received by 70% for the duration.",
+            "range": 0,
+            "duration": 3,
+            "projectiles": 1,
+            "extra": "Duration"
+        },
+        "sp1": {
+            "name": "Plant Life",
+            "desc": "Rosa recovers 200 health per second when inside a bush."
+        },
+        "sp2": {
+            "name": "Thorny Gloves",
+            "desc": "Rosa's punches gain +220 damage during her Super."
+        },
+        "skins": {
+            "Brawl-o-ween": [-1, -1],
+            
+        }
     }
+    
 }
