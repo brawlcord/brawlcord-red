@@ -31,6 +31,7 @@ reward_types = {
     14: ["Big Box", emojis["bigbox"]]
 }
 
+#Tickets are no longer in the game, they should be removed somehow
 
 class MixinMeta(ABC):
     """Mixin meta class for type hinting.
@@ -876,8 +877,6 @@ class MixinMeta(ABC):
             ],
             "Bounty": ["bounty", "bonty", "bunty"],
             "Heist": ["heist", "heis"],
-            "Lone Star": ["lone star", "lonestar", "ls", "lone"],
-            "Takedown": ["takedown", "take down", "td"],
             "Robo Rumble": [
                 "robo rumble", "rr", "roborumble", "robo", "rumble"
             ],
