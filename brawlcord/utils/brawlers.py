@@ -575,6 +575,17 @@ class Leon(Brawler):
         info = f"{super_desc}\n{emojis['super']} {super_str}: {self.ult['duration']} seconds"
 
         return info
+                        
+class Rosa(Brawler):
+    """Class to represent Rosa."""
+
+    def super_info(self, stats):
+        super_str = self.ult['extra']
+        super_desc = f"```{self.ult['desc']}```"
+
+        info = f"{super_desc}\n{emojis['super']} {super_str}: {self.ult['duration']} seconds"
+
+        return info
 
 
 # GENERAL BRAWLER CLASSES
@@ -661,7 +672,6 @@ class Gene(Brawler):
 class Tick(Brawler):
     """Class to represent Tick."""
 
-
 brawlers_map = {
     "Shelly": Shelly,
     "Nita": Nita,
@@ -688,4 +698,5 @@ brawlers_map = {
     "Leon": Leon,
     "Gene": Gene,
     "Tick": Tick,
+    "Rosa": Rosa,
 }
