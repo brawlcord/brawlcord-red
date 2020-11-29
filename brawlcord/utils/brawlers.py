@@ -660,6 +660,9 @@ class Gene(Brawler):
 
 class Tick(Brawler):
     """Class to represent Tick."""
+                        
+class Rosa(Brawler):
+    """Class to represent Rosa."""
 
 
 brawlers_map = {
@@ -688,4 +691,5 @@ brawlers_map = {
     "Leon": Leon,
     "Gene": Gene,
     "Tick": Tick,
+    "Rosa": Rosa,
 }
