@@ -671,6 +671,9 @@ class Gene(Brawler):
 
 class Tick(Brawler):
     """Class to represent Tick."""
+                        
+class Rosa(Brawler):
+    """Class to represent Rosa."""
 
 brawlers_map = {
     "Shelly": Shelly,
