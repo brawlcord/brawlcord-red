@@ -23,7 +23,7 @@ def maintenance():
 
                 if setting:
                     raise MaintenanceError(
-                        "The bot is currently under maintenance. It will end"
+                        ":construction::warning:The bot is currently under maintenance.:construction::warning: It will end"
                         f" in approx. {maint['duration']} minutes."
                         " Commands will not work till then."
                         " Sorry for the inconvenience!"
