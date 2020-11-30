@@ -375,6 +375,23 @@ class HealSpawner(Brawler):
             "spawn_health": self.ult["spawn"]["health"]
         }
 
+                        
+                        
+                        
+ class AtkBoostSpawner(Brawler):
+    """Class to represent Brawlers whose spanws damage boost.
+
+    This exists as a separate class because of the additional "spawn_atkboost" element.
+    """
+
+    def init(self):
+        self.stats = {
+            "health": self.health,
+            "att_damage": self.attack["damage"],
+            "spawn_atkboost": self.ult["spawn"]["boost"],
+            "spawn_health": self.ult["spawn"]["health"]
+        }
+
     def _ult(self, level):
         """Represents the Super ability of Nita."""
 
@@ -587,10 +604,7 @@ class Rosa(Brawler):
 
         return info
                         
-class 8-Bit(Brawler):
-    """Class to represent 8-Bit."""
-                        
-#I'm just leaving this there, because I'm not sure how to impliment damageBoost mechanic from his turret
+                      
 
      
 
@@ -678,6 +692,8 @@ class Gene(Brawler):
 class Tick(Brawler):
     """Class to represent Tick."""
                         
+class 8-Bit(AtkBoostSpawner):
+    """Class to represent 8-Bit."""
 
 brawlers_map = {
     "Shelly": Shelly,
@@ -706,4 +722,5 @@ brawlers_map = {
     "Gene": Gene,
     "Tick": Tick,
     "Rosa": Rosa,
+    "8-Bit": 8-Bit,
 }
