@@ -586,7 +586,13 @@ class Rosa(Brawler):
         info = f"{super_desc}\n{emojis['super']} {super_str}: {self.ult['duration']} seconds"
 
         return info
+                        
+class 8-Bit(Brawler):
+    """Class to represent 8-Bit."""
+                        
+#I'm just leaving this there, because I'm not sure how to impliment damageBoost mechanic from his turret
 
+     
 
 # GENERAL BRAWLER CLASSES
 # These exist just for the sake of having a class for each Brawler.
@@ -672,8 +678,6 @@ class Gene(Brawler):
 class Tick(Brawler):
     """Class to represent Tick."""
                         
-class Rosa(Brawler):
-    """Class to represent Rosa."""
 
 brawlers_map = {
     "Shelly": Shelly,
