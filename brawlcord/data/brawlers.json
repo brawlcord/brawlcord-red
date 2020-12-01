@@ -976,6 +976,46 @@
             "Brawl-O-Ween": [-1, -1]
             
         }
+    },
+    "8-BIT": {
+        "desc": "8-BIT lumbers along like an arcade cabinet on legs. He shoots Blaster Beams and his Super boosts friendlies' damage!",
+        "health": 4500,
+        "attack": {
+            "name": "Blaster Beams",
+            "damage": 220,
+            "desc": "Shoots a burst of Blaster Beams that damage any opponent they hit. The beams have medium range and a slight spread.",
+            "range": 10,
+            "reload": 1.5,
+            "projectiles": 6,
+            "extra": "Damage per beam"
+        },
+        "speed": 580,
+        "rarity": "Trophy Road",
+        "unlockTrp": 6000,
+        "ult": {
+            "name": "Damage Booster",
+            "desc": "Deploys a turret that increases the damage output of all friendly Brawlers in its area of effect.",
+            "extra": "Damage increase",
+            "spawn": {
+                "health": 2800,
+                "damage": null,
+                "atkboost": 30,
+                "range": 3.33,
+                "name": "Damage Booster"
+            },
+            "projectiles": 1
+        },
+        "sp1": {
+            "name": "Boosted Booster",
+            "desc": "Increases the Damage Booster's radius by 50%."
+        },
+        "sp2": {
+            "name": "Plugged In",
+            "desc": "When 8-BIT is near his Damage Booster, he will plug in and have increased movement speed."
+        },
+        "skins": {
+        "Classic": [30, -1],
+        "Virus": [-1, -1]
+        }
     }
-    
 }
