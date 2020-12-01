@@ -612,7 +612,8 @@ class Rosa(Brawler):
 # These exist just for the sake of having a class for each Brawler.
 # They simply inherit from appropriate base classes
 # (`Brawler`, `Healer`, `Spawner` or `HealSpawner`).
-
+# There is 1 unfinished class, called `AtkBoostSpawner`
+                        
 class Shelly(Brawler):
     """Class to represent Shelly."""
 
@@ -691,10 +692,14 @@ class Gene(Brawler):
 
 class Tick(Brawler):
     """Class to represent Tick."""
+  
                         
 class 8-Bit(AtkBoostSpawner):
     """Class to represent 8-Bit."""
 
+class Emz(Brawler):
+    """Class to represent Emz."""
+                        
 brawlers_map = {
     "Shelly": Shelly,
     "Nita": Nita,
@@ -722,5 +727,6 @@ brawlers_map = {
     "Gene": Gene,
     "Tick": Tick,
     "Rosa": Rosa,
-    "8-Bit": 8-Bit,
+    "8-Bit": 8-BIT,
+    "Emz": Emz,
 }
