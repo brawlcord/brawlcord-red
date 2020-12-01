@@ -1017,5 +1017,39 @@
         "Classic": [30, -1],
         "Virus": [-1, -1]
         }
-    }
+    },
+ "Emz": {
+        "desc": "Emz attacks with blasts of hair spray that deal damage over time, and slows down opponents with her Super.",
+        "health": 3100,
+        "attack": {
+            "name": "Spray",
+            "damage": 400,
+            "desc": "Emz gives you a blast of her hair spray! It's strong enough to melt your face.",
+            "range": 6.67,
+            "reload": 2,
+            "projectiles": 3
+        },
+        "speed": 720,
+        "rarity": "Trophy Road",
+        "unlockTrp": 8000,
+         "ult": {
+            "name": "Caustic Charisma",
+            "damage": 300,
+            "desc": "Emz creates a cloud of toxicity around herself, slowing down the movement of enemies and damaging them.",
+            "range": 5.67,
+            "projectiles": 5
+        },
+        "sp1": {
+            "name": "Bad Karma",
+            "desc": "Enemies that stay within the cloud of Emz's toxic hair spray suffer increasing damage, 20% per hit."
+        },
+        "sp2": {
+            "name": "Hype",
+            "desc": "Emz recovers 320 health per second for each enemy inside her Super's area of effect."
+        },
+        "skins": {
+            "College": [-1, 500],
+            "Super Fan": [150, -1]
+        }
+    },
 }
