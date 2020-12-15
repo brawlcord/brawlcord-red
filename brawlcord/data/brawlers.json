@@ -229,7 +229,8 @@
             "Beach": [80, -1],
             "Boom Box": [80, -1],
             "Lion Dance": [-1, -1],
-            "Hot Rod": [150, -1]
+            "Hot Rod": [150, -1],
+            "Old School": [-1, -1]
         }
     },
     "Dynamike": {
@@ -305,7 +306,8 @@
             "Light Mecha": [-1, 10000],
             "Gold Mecha": [-1, 50000],
             "Horus": [150, -1],
-            "Underworld": [150, -1]
+            "Underworld": [150, -1],
+            "Warrior": [30, -1]
         }
     },
     "El Primo": {
@@ -717,7 +719,8 @@
         },
         "skins": {
             "Caveman": [80, -1],
-            "DJ": [80, -1]
+            "DJ": [80, -1],
+            "Holiday Party": [-1, -1]
         }
     },
     "Tara": {
@@ -937,7 +940,8 @@
             "desc": "Tick's reload time is 10% shorter."
         },
         "skins": {
-            "King Crab": [80, -1]
+            "King Crab": [80, -1],
+            "Snowman": [-1, -1]
         }
     },
     "Rosa": {
@@ -1050,6 +1054,41 @@
         "skins": {
             "College": [-1, 500],
             "Super Fan": [150, -1]
+        }
+    },
+"Sandy": {
+        "desc": "El Primo throws a flurry of punches at his enemies. His Super is a leaping elbow drop that deals damage to all caught underneath!",
+        "health": 5800,
+        "attack": {
+            "name": "Fists of Fury",
+            "damage": 320,
+            "desc": "El Primo fires off a furious flurry of four fiery fists. That's a spicy jalapeno knuckle sandwich!",
+            "range": 3,
+            "reload": 0.8,
+            "projectiles": 4,
+            "extra": "Damage per punch"
+        },
+        "speed": 770,
+        "rarity": "Rare",
+        "unlockTrp": -1,
+        "ult": {
+            "name": "Flying Elbow Drop",
+            "damage": 800,
+            "desc": "Leaping high, El Primo drops an Intergalactic Elbow that knocks around enemies and destroys cover!",
+            "range": 8.67,
+            "projectiles": 1
+        },
+        "sp1": {
+            "name": "El Fuego",
+            "desc": "Enemies caught in El Primo's Super will burn for 1200 damage over 4 seconds."
+        },
+        "sp2": {
+            "name": "Meteor Rush",
+            "desc": "El Primo gains a 25% speed boost for 4.0 seconds after using his Super."
+        },
+        "skins":{
+        "Sleepy": [30, -1],
+        "Sugar Rush": [80, -1]
         }
     },
 }
