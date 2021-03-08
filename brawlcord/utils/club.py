@@ -14,8 +14,8 @@ from .constants import EMBED_COLOR
 from .emojis import emojis
 from .errors import CancellationError
 
-# Credits to Star List
-club_thumb = "https://www.starlist.pro/assets/club/{}.png"
+# Credits to Brawlify
+club_thumb = "https://cdn.brawlify.com/club/80000{:02}.png?v=1"
 
 
 class Club:
@@ -205,7 +205,7 @@ class Club:
         total_pages = len(pages)
         total_trophies = await club.total_trophies(config)
         if club.icon_num not in range(1, 31):
-            icon_url = "https://www.starlist.pro/assets/icon/Club.png"
+            icon_url = "https://cdn.brawlify.com/icon/Club.png"
         else:
             icon_url = club_thumb.format(club.icon_num - 1)
 
@@ -214,7 +214,7 @@ class Club:
             #     continue
             embed = discord.Embed(color=EMBED_COLOR, description=club.description)
 
-            # Star List's club indexing starts a 0, ours at 1.
+            # Brawlify's club indexing starts at 0, ours at 1.
             # It goes all the way up till 29.
             embed.set_author(name=club.name, icon_url=icon_url)
             embed.set_footer(text=f"Club ID: {club.id} | Page {idx+1}/{total_pages}")

@@ -273,7 +273,7 @@ class MiscMixin(MixinMeta):
             "Brawlcord would not have existed without the following:"
             "\n\n- [Supercell](https://supercell.com/en/)"
             "\n - [Red](https://github.com/Cog-Creators/Red-DiscordBot)"
-            "\n- [Star List](https://www.starlist.pro) - Huge thanks to"
+            "\n- [Brawlify](https://brawlify.com) - Huge thanks to"
             " Henry for allowing me to use assets from his site!"
             "\n- [Brawl Stats](https://brawlstats.com) - Huge thanks to"
             " tryso for allowing me to use his artwork!"

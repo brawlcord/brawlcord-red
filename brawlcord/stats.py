@@ -487,7 +487,7 @@ class StatisticsMixin(MixinMeta):
 
             title = "Brawlcord Leaderboard"
 
-            url = "https://www.starlist.pro/assets/icon/trophy.png"
+            url = "https://cdn.brawlify.com/icon/trophy.png"
 
             await self.leaderboard_handler(ctx, title, url, 5)
 
@@ -497,7 +497,7 @@ class StatisticsMixin(MixinMeta):
 
         title = "Brawlcord Leaderboard - Highest Trophies"
 
-        url = "https://www.starlist.pro/assets/icon/trophy.png"
+        url = "https://cdn.brawlify.com/icon/trophy.png"
 
         await self.leaderboard_handler(ctx, title, url, 5, pb=True)
 

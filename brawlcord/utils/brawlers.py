@@ -5,9 +5,9 @@ import discord
 from .emojis import brawler_emojis, emojis, rank_emojis, sp_icons
 
 
-# Credits to Star List, developed by Henry.
-brawler_url = "https://www.starlist.pro/brawlers/detail/{}"
-brawler_thumb = "https://www.starlist.pro/assets/brawler/{}.png"
+# Credits to Brawlify, developed by Henry.
+brawler_url = "https://brawlify.com/brawlers/detail/{}"
+brawler_thumb = "https://cdn.brawlify.com/brawler/{}.png?v=1"
 
 
 rarity_colors = {

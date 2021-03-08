@@ -26,7 +26,7 @@ LOG_COLORS = {
     "Draw": EMBED_COLOR
 }
 
-gamemode_thumb = "https://www.starlist.pro/assets/gamemode/{}.png"
+gamemode_thumb = "https://cdn.brawlify.com/gamemode/{}.png?v=1"
 
 
 class GameplayMixin(MixinMeta):

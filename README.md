@@ -29,11 +29,11 @@ Brawlcord is a Discord bot which allows users to play a simplified version of th
 
 The cog replicates the real game in a number of ways while adapting to the text-based form of Discord. It has the following features:
 
-- Battle against the bot or other players for glory (and rewards)  
+- Battle against the bot or other players for glory (and rewards)
 - Unlock and collect new, powerful Brawlers - each with a signature attack and SUPER ability
 - Climb to the top of the leaderboards in global and local rankings
 - Customize Brawlers with unlockable skins
-- See your stats and show off to friends  
+- See your stats and show off to friends
 
 ## Features
 
@@ -49,7 +49,7 @@ The cog replicates the real game in a number of ways while adapting to the text-
 
 You can use the bot in the [Brawlcord Community Server](https://discord.gg/7zJ3PbJ) or invite it to your own server using [this link](https://discord.com/oauth2/authorize?client_id=644118957917208576&scope=bot&permissions=322624&scope=bot).
 
-**Note:** By using the link above, Brawlcord will be able to read messages, send messages, manage messages, embed links, attach files, add reactions, and use external emojis wherever allowed. You can remove the permissions manually, but that may break the bot.  
+**Note:** By using the link above, Brawlcord will be able to read messages, send messages, manage messages, embed links, attach files, add reactions, and use external emojis wherever allowed. You can remove the permissions manually, but that may break the bot.
 
 More information about bot commands and hosting can be found [here](https://brawlcord.github.io/).
 
@@ -65,7 +65,7 @@ First make sure you have Red Bot V3 installed. Instructions to install Red Bot c
 
 Next add my repo using the following command:
 
-> Note: [p] will be your prefix in all of the following commands.  
+> Note: [p] will be your prefix in all of the following commands.
 
 `[p]repo add brawlcord https://github.com/brawlcord/brawlcord-red`
 
@@ -74,6 +74,7 @@ Then, you will have to install cog by using the following command:
 `[p]cog install brawlcord brawlcord`
 
 You should see the following message after the installation:
+
 > Thank you for installing the Brawlcord cog, based on the mobile game Brawl Stars (developed by Supercell).
 
 Load the cog once you see that message using the following command:
@@ -89,7 +90,7 @@ Make sure that you use the `[p]cog update` command to periodically update your c
 - [Brawlcord Emotes: Ranks](https://discord.gg/5tT88HM)
 - [Brawlcord Emotes: Brawlers and Game Modes](https://discord.gg/77Edmna)
 
-Unfortunately, due to Discord limitations, you can't add your bot to these servers directly. In order to have your bot added to the abovementioned servers, you must send me a direct message with your bot's OAuth invite link. While I know this isn't ideal, this is currently the only working way. I'll work on adding an option to disable emotes in the future.  
+Unfortunately, due to Discord limitations, you can't add your bot to these servers directly. In order to have your bot added to the abovementioned servers, you must send me a direct message with your bot's OAuth invite link. While I know this isn't ideal, this is currently the only working way. I'll work on adding an option to disable emotes in the future.
 
 My Discord username: **Snowsy#0592**
 
@@ -97,8 +98,8 @@ My Discord username: **Snowsy#0592**
 
 - [Supercell](https://supercell.com/en/)
 - [Red Bot](https://github.com/Cog-Creators/Red-DiscordBot)
-- [Star List](https://www.starlist.pro) - Huge thanks to Henry for allowing me to use some assets from his site!  
-- [Brawl Stats](https://brawlstats.com) - Huge thanks to tryso for allowing me to use his artwork!  
+- [Brawlify](https://brawlify.com) - Huge thanks to Henry for allowing me to use some assets from his site!
+- [Brawl Stats](https://brawlstats.com) - Huge thanks to tryso for allowing me to use his artwork!
 
 ## Disclaimer
 
