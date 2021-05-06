@@ -16,7 +16,7 @@
 
 "PremiumTier" = false'
 
-#Tiers:
+#I learned, that you cannot have identical numbers, so I tried to find a solution to this problem by adding an "X" before the number in the premium tiers of the pass
 
     "0": {
         "TokensNeededForTier": 0,
@@ -64,4 +64,4 @@
 
 #WIP
 
-#The top tier of the pass (the paid one, which costs 169 gems in-game), should be free, because Len (me) want(s) for Brawlcord progression to be faster, than the progression in the real game
+#The top side of the pass (the paid one, which costs 169 gems in-game), should be free, because Len (me) want(s) for Brawlcord progression to be faster, than the progression in the real game
