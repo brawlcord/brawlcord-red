@@ -1,17 +1,63 @@
-#Brawl Pass is a feature, that MUST be developed until May 12th, 2021
+#Brawl Pass is a feature, that MUST be developed until May 12th, 2021. I guess this goal is unachievable, because of how long the rewrite is taking. But I'll still try.
 
-tier = 0:
+"Tier" = 0;
 
-s1_tier_count = 60;
+"S1TierCount" = 60;
 
-current_tier = 0;
+"CurrentTier = 0;
 
-tokens_needed_for_tier = 0;
+"TokensNeededForTier" = 0;
 
-brawl_pass_purchased = false;
+"BrawlPassPurchased" = false;
+
+"PremiumTier" = false'
 
 #Tiers:
 
+    "0": {
+        "TokensNeededForTier": 0,
+        "RewardType": 6,
+        "RewardCount": 1,
+        "RewardExtraData": "",
+        "PremiumTier": false
+    },
+    "0": {
+        "TokensNeededForTier": 0,
+        "RewardType": 6,
+        "RewardCount": 1,
+        "RewardExtraData": "",
+        "PremiumTier": true
+    },
+ 
+    "1": {
+        "TokensNeededForTier": 25,
+        "RewardType": 6,
+        "RewardCount": 1,
+        "RewardExtraData": "",
+        "PremiumTier": false
+    },
+    "1": {
+        "TokensNeededForTier": 25,
+        "RewardType": 6,
+        "RewardCount": 1,
+        "RewardExtraData": "",
+        "PremiumTier": true
+    },
+    "2": {
+        "TokensNeededForTier": 25,
+        "RewardType": 2,
+        "RewardCount": 50,
+        "RewardExtraData": "",
+        "PremiumTier": false
+    },
+    "3": {
+        "TokensNeededForTier": 75,
+        "RewardType": 6,
+        "RewardCount": 1,
+        "RewardExtraData": "",
+        "PremiumTier": false
+    },
 
+#WIP
 
 #The top tier of the pass (the paid one, which costs 169 gems in-game), should be free, because Len (me) want(s) for Brawlcord progression to be faster, than the progression in the real game
