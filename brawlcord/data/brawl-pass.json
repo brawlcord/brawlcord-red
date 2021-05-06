@@ -1,5 +1,9 @@
 #Brawl Pass is a feature, that MUST be developed until May 12th, 2021. I guess this goal is unachievable, because of how long the rewrite is taking. But I'll still try.
 
+"CurrentSeason" = 1;
+
+"SeasonDuration" = 60"d";
+
 "Tier" = 0;
 
 "S1TierCount" = 60;
