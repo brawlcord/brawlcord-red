@@ -1,3 +1,17 @@
 #Brawl Pass is a feature, that MUST be developed until May 12th, 2021
 
+tier = 0:
+
+s1_tier_count = 60;
+
+current_tier = 0;
+
+tokens_needed_for_tier = 0;
+
+brawl_pass_purchased = false;
+
+#Tiers:
+
+
+
 #The top tier of the pass (the paid one, which costs 169 gems in-game), should be free, because Len [further - I] want(s) for Brawlcord progression to be faster, than the progression in the real game
