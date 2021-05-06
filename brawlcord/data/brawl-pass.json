@@ -25,7 +25,7 @@
         "RewardExtraData": "",
         "PremiumTier": false
     },
-    "0": {
+    "X0": {
         "TokensNeededForTier": 0,
         "RewardType": 6,
         "RewardCount": 1,
@@ -40,7 +40,7 @@
         "RewardExtraData": "",
         "PremiumTier": false
     },
-    "1": {
+    "X1": {
         "TokensNeededForTier": 25,
         "RewardType": 6,
         "RewardCount": 1,
