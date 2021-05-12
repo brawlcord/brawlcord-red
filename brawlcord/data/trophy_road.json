@@ -139,8 +139,8 @@
     },
     "24": {
         "Trophies": 950,
-        "RewardType": 7,
-        "RewardCount": 10,
+        "RewardType": 14,
+        "RewardCount": 1,
         "RewardExtraData": ""
     },
     "25": {
@@ -170,7 +170,7 @@
     "29": {
         "Trophies": 1400,
         "RewardType": 1,
-        "RewardCount": 50,
+        "RewardCount": 100,
         "RewardExtraData": ""
     },
     "30": {
@@ -181,9 +181,9 @@
     },
     "31": {
         "Trophies": 1600,
-        "RewardType": 13,
+        "RewardType": 14,
         "RewardCount": 0,
-        "RewardExtraData": "Solo Events"
+        "RewardExtraData": ""
     },
     "32": {
         "Trophies": 1700,
@@ -193,14 +193,14 @@
     },
     "33": {
         "Trophies": 1800,
-        "RewardType": 6,
+        "RewardType": 14,
         "RewardCount": 1,
         "RewardExtraData": ""
     },
     "34": {
         "Trophies": 1900,
         "RewardType": 12,
-        "RewardCount": 25,
+        "RewardCount": 50,
         "RewardExtraData": ""
     },
     "35": {
@@ -332,13 +332,13 @@
     "56": {
         "Trophies": 4150,
         "RewardType": 12,
-        "RewardCount": 25,
+        "RewardCount": 150,
         "RewardExtraData": ""
     },
     "57": {
         "Trophies": 4300,
         "RewardType": 1,
-        "RewardCount": 50,
+        "RewardCount": 200,
         "RewardExtraData": ""
     },
     "58": {
@@ -392,25 +392,25 @@
     "66": {
         "Trophies": 6150,
         "RewardType": 1,
-        "RewardCount": 50,
+        "RewardCount": 200,
         "RewardExtraData": ""
     },
     "67": {
         "Trophies": 6300,
-        "RewardType": 6,
+        "RewardType": 14,
         "RewardCount": 1,
         "RewardExtraData": ""
     },
     "68": {
         "Trophies": 6500,
         "RewardType": 12,
-        "RewardCount": 75,
+        "RewardCount": 150,
         "RewardExtraData": ""
     },
     "69": {
         "Trophies": 6750,
         "RewardType": 1,
-        "RewardCount": 50,
+        "RewardCount": 200,
         "RewardExtraData": ""
     },
     "70": {
@@ -451,26 +451,26 @@
     },
     "76": {
         "Trophies": 8150,
-        "RewardType": 12,
-        "RewardCount": 25,
+        "RewardType": 14,
+        "RewardCount": 1,
         "RewardExtraData": ""
     },
     "77": {
         "Trophies": 8300,
-        "RewardType": 6,
-        "RewardCount": 1,
+        "RewardType": 12,
+        "RewardCount": 150,
         "RewardExtraData": ""
     },
     "78": {
         "Trophies": 8500,
-        "RewardType": 1,
-        "RewardCount": 150,
+        "RewardType": 6,
+        "RewardCount": 1,
         "RewardExtraData": ""
     },
     "79": {
         "Trophies": 8750,
-        "RewardType": 6,
-        "RewardCount": 1,
+        "RewardType": 1,
+        "RewardCount": 200,
         "RewardExtraData": ""
     },
     "80": {
@@ -482,13 +482,13 @@
     "81": {
         "Trophies": 9150,
         "RewardType": 1,
-        "RewardCount": 50,
+        "RewardCount": 150,
         "RewardExtraData": ""
     },
     "82": {
         "Trophies": 9300,
         "RewardType": 12,
-        "RewardCount": 25,
+        "RewardCount": 50,
         "RewardExtraData": ""
     },
     "83": {
@@ -499,7 +499,7 @@
     },
     "84": {
         "Trophies": 9750,
-        "RewardType": 6,
+        "RewardType": 14,
         "RewardCount": 1,
         "RewardExtraData": ""
     },
@@ -512,19 +512,19 @@
     "86": {
         "Trophies": 10500,
         "RewardType": 1,
-        "RewardCount": 150,
+        "RewardCount": 500,
         "RewardExtraData": ""
     },
     "87": {
         "Trophies": 11000,
-        "RewardType": 1,
-        "RewardCount": 300,
+        "RewardType": 10,
+        "RewardCount": 1,
         "RewardExtraData": ""
     },
     "88": {
         "Trophies": 11500,
-        "RewardType": 1,
-        "RewardCount": 150,
+        "RewardType": 12,
+        "RewardCount": 200,
         "RewardExtraData": ""
     },
     "89": {
@@ -536,19 +536,19 @@
     "90": {
         "Trophies": 12500,
         "RewardType": 1,
-        "RewardCount": 150,
+        "RewardCount": 500,
         "RewardExtraData": ""
     },
     "91": {
         "Trophies": 13000,
-        "RewardType": 1,
-        "RewardCount": 300,
+        "RewardType": 10,
+        "RewardCount": 1,
         "RewardExtraData": ""
     },
     "92": {
         "Trophies": 13500,
-        "RewardType": 1,
-        "RewardCount": 150,
+        "RewardType": 12,
+        "RewardCount": 200,
         "RewardExtraData": ""
     },
     "93": {
@@ -560,7 +560,7 @@
     "94": {
         "Trophies": 14500,
         "RewardType": 1,
-        "RewardCount": 150,
+        "RewardCount": 1000,
         "RewardExtraData": ""
     }
 }
