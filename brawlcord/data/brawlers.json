@@ -1,10 +1,10 @@
 {
     "Shelly": {
         "desc": "Shelly’s spread-fire shotgun blasts the other team with buckshot. Her Super destroys cover and keeps her opponents at a distance!",
-        "health": 3600,
+        "health": 3800,
         "attack": {
             "name": "Buckshot",
-            "damage": 300,
+            "damage": 320,
             "desc": "Shelly's boomstick fires a wide spread of pellets to a medium range. The more pellets hit, the greater the damage.",
             "range": 7.67,
             "reload": 1.5,
@@ -16,7 +16,7 @@
         "unlockTrp": 0,
         "ult": {
             "name": "Super Shell",
-            "damage": 320,
+            "damage": 340,
             "desc": "Shelly's Super Shell obliterates both cover and enemies. Any survivors get knocked back.",
             "range": 7.33,
             "projectiles": 9,
@@ -41,7 +41,7 @@
         "health": 4000,
         "attack": {
             "name": "Rupture",
-            "damage": 800,
+            "damage": 950,
             "desc": "Nita sends forth a shockwave, damaging enemies caught in the tremor.",
             "range": 5.5,
             "reload": 1.25,
@@ -81,7 +81,7 @@
         "health": 2800,
         "attack": {
             "name": "Six Shooters",
-            "damage": 300,
+            "damage": 360,
             "desc": "Colt shoots six straight long-range shots out of his revolvers.",
             "range": 8.67,
             "reload": 1.5,
@@ -93,7 +93,7 @@
         "unlockTrp": 60,
         "ult": {
             "name": "Bullet Storm",
-            "damage": 300,
+            "damage": 360,
             "desc": "Colt rattles off a massive burst of bullets that shoot extra far and destroy cover.",
             "range": 11,
             "projectiles": 12,
@@ -118,7 +118,7 @@
         "health": 4900,
         "attack": {
             "name": "Double-Barrel",
-            "damage": 400,
+            "damage": 250,
             "desc": "Bull's double-barreled shotgun deals heavy damage. It has very short range, so Bull likes to get up close and personal.",
             "range": 5,
             "reload": 1.6,
@@ -130,7 +130,7 @@
         "unlockTrp": 250,
         "ult": {
             "name": "Bulldozer",
-            "damage": 800,
+            "damage": 1600,
             "desc": "Bull puts his head down and bulldozes through opponents and obstacles. He's always been headstrong!",
             "range": 11.67,
             "projectiles": 1
@@ -151,10 +151,10 @@
     },
     "Jessie": {
         "desc": "Jessie's Shock Rifle shoots energy orbs that bounce between enemies. Her Super deploys a cute but deadly gun turret!",
-        "health": 3200,
+        "health": 3600,
         "attack": {
             "name": "Shock Rifle",
-            "damage": 840,
+            "damage": 1080,
             "desc": "Jessie fires off an energy orb. After hitting a target, the orb bounces at the next target in range, hitting up to three enemies.",
             "range": 9,
             "reload": 1.8,
@@ -167,7 +167,7 @@
             "name": "Scrappy!",
             "desc": "Jessie deploys a gun turret that automatically shoots at enemies. It's made of 100% recycled materials!",
             "spawn": {
-                "health": 2800,
+                "health": 3200,
                 "damage": 260,
                 "range": 4.67,
                 "speed": 0,
@@ -194,7 +194,7 @@
         "health": 2800,
         "attack": {
             "name": "Rockin' Rocket",
-            "damage": 1100,
+            "damage": 1200,
             "desc": "Brock lets fly with a single Rockin' Rocket that really goes the distance.",
             "range": 10,
             "reload": 2.1,
@@ -205,10 +205,10 @@
         "unlockTrp": 1000,
         "ult": {
             "name": "Rocket Rain",
-            "damage": 290,
+            "damage": 440,
             "desc": "Brock fires a rocket barrage that takes out enemies and obstacles. He only wants to see you bathing in the Rocket Rain!",
             "range": 8,
-            "projectiles": 9,
+            "projectiles": 6,
             "extra": "Damage per rocket"
         },
         "sp1": {
@@ -228,10 +228,10 @@
     },
     "Dynamike": {
         "desc": "Dynamike lobs two explosive sticks of dynamite. His Super attack is a whole barrel full of dynamite that blows up cover!",
-        "health": 2800,
+        "health": 3400,
         "attack": {
             "name": "Short Fure",
-            "damage": 760,
+            "damage": 860,
             "desc": "Mike tosses two sticks of dynamite, passing over any obstacles in the way. The fuses are cut as short as Mike's explosive temper!",
             "range": 7,
             "reload": 1.7,
@@ -243,7 +243,7 @@
         "unlockTrp": 2000,
         "ult": {
             "name": "Big Barrel o' Boom",
-            "damage": 2200,
+            "damage": 2400,
             "desc": "A big-bada-barrel of dynamite blows up cover. Any surviving enemies get knocked back on impact!",
             "range": 7,
             "projectiles": 1
@@ -264,10 +264,10 @@
     },
     "Bo": {
         "desc": "Bo fires three explosive arrows toward his targets. His Super ability places a trio of hidden, explosive mines on the ground!",
-        "health": 3600,
+        "health": 3800,
         "attack": {
             "name": "Eagle-Eyed",
-            "damage": 520,
+            "damage": 600,
             "desc": "Bo releases a trio of exploding arrows, tearing up enemies like an eagle's talons.",
             "range": 8.33,
             "reload": 1.7,
@@ -279,7 +279,7 @@
         "unlockTrp": 3000,
         "ult": {
             "name": "Catch a Fox",
-            "damage": 1440,
+            "damage": 1100,
             "desc": "Bo hides explosive traps in the ground. When triggered by an enemy, the traps explode after a short delay, knocking back and damaging enemies.",
             "range": 8.33,
             "projectiles": 3,
@@ -301,10 +301,10 @@
     },
     "El Primo": {
         "desc": "El Primo throws a flurry of punches at his enemies. His Super is a leaping elbow drop that deals damage to all caught underneath!",
-        "health": 5800,
+        "health": 5400,
         "attack": {
             "name": "Fists of Fury",
-            "damage": 360,
+            "damage": 340,
             "desc": "El Primo fires off a furious flurry of four fiery fists. That's a spicy jalapeno knuckle sandwich!",
             "range": 3,
             "reload": 0.8,
@@ -316,7 +316,7 @@
         "unlockTrp": -1,
         "ult": {
             "name": "Flying Elbow Drop",
-            "damage": 800,
+            "damage": 1200,
             "desc": "Leaping high, El Primo drops an Intergalactic Elbow that knocks around enemies and destroys cover!",
             "range": 8.67,
             "projectiles": 1
@@ -337,10 +337,10 @@
     },
     "Barley": {
         "desc": "Barley attacks by lobbing bottles at enemies, doing splash damage. His Super is a huge barrage of burning bottles!",
-        "health": 2400,
+        "health": 3200,
         "attack": {
             "name": "Undiluted",
-            "damage": 680,
+            "damage": 780,
             "desc": "Barley lobs a bottle, breaking it on the ground. Enemies take damage from the splash, and more damage over time if they stay in the puddle.",
             "range": 7,
             "reload": 2,
@@ -352,7 +352,7 @@
         "unlockTrp": -1,
         "ult": {
             "name": "Last Call",
-            "damage": 680,
+            "damage": 780,
             "desc": "Barley hurls a flurry of fiery bottles, covering a huge area in flames. This one’s on the house!",
             "range": 9,
             "projectiles": 5,
@@ -375,10 +375,10 @@
     },
     "Poco": {
         "desc": "Poco fires damaging sound waves at enemies. His Super can heal both Poco himself and his teammates!",
-        "health": 3800,
+        "health": 4000,
         "attack": {
             "name": "Power Chord",
-            "damage": 660,
+            "damage": 860,
             "desc": "Poco strums his guitarrón, sending forward bone-jarring sound waves. Enemies hit by the waves take damage.",
             "range": 7.33,
             "reload": 1.6,
@@ -390,7 +390,7 @@
         "ult": {
             "name": "Encore",
             "damage": null,
-            "heal": 2100,
+            "heal": 3000,
             "desc": "Poco heals himself and all friends he can reach with his uplifting melody. Does not affect enemies.",
             "range": 10.33,
             "projectiles": 1,
@@ -410,10 +410,10 @@
     },
     "Rico": {
         "desc": "Rico fires a burst of bullets that bounce off walls. His Super burst is a long barrage of bouncy bullets that pierce targets!",
-        "health": 2600,
+        "health": 2700,
         "attack": {
             "name": "Bouncy Bullets",
-            "damage": 320,
+            "damage": 380,
             "desc": "Rico's bullets bounce off walls, gaining range. They can hit enemies behind cover.",
             "range": 9.67,
             "reload": 1.2,
@@ -425,7 +425,7 @@
         "unlockTrp": -1,
         "ult": {
             "name": "Trick Shot",
-            "damage": 320,
+            "damage": 380,
             "desc": "Rico fires a long burst of bullets that pierce through enemies and bounce off walls, gaining range.",
             "range": 13.33,
             "projectiles": 12,
@@ -446,10 +446,10 @@
     },
     "Darryl": {
         "desc": "Darryl has a powerful double-shotgun attack. His Super move is a reckless roll inside of his bouncy barrel!",
-        "health": 4800,
+        "health": 4600,
         "attack": {
             "name": "Double Deuce",
-            "damage": 350,
+            "damage": 300,
             "desc": "Darryl's double barrel shotguns fire two staggered blasts of heavy close-range damage.",
             "range": 5.67,
             "reload": 1.8,
@@ -461,10 +461,10 @@
         "unlockTrp": -1,
         "ult": {
             "name": "Barrel Roll",
-            "damage": 400,
+            "damage": 600,
             "desc": "Darryl rolls forward inside his barrel, knocking back enemies and bouncing off walls. His Super recharges over time!",
             "range": 7,
-            "projectiles": 1
+            "projectiles": 3
         },
         "sp1": {
             "name": "Steel Hoops",
@@ -480,14 +480,14 @@
     },
     "Penny": {
         "desc": "Penny shoots bags of coins, damaging the target and anyone standing behind. Her Super is a mortar-style cannon turret!",
-        "health": 3200,
+        "health": 3800,
         "attack": {
             "name": "Plunderbuss",
-            "damage": 900,
+            "damage": 1050,
             "desc": "Shoots out a pouch of fool’s gold. If the pouch hits an enemy, it bursts and coins pepper targets behind the first enemy.",
             "range": 9,
             "reload": 2,
-            "projectiles": 1
+            "projectiles": 2
         },
         "speed": 720,
         "rarity": "Super Rare",
@@ -496,7 +496,7 @@
             "name": "Old Lobber",
             "desc": "Penny sets up her cannon! It can shoot at enemies at a long range, even if they are behind cover.",
             "spawn": {
-                "health": 2800,
+                "health": 2200,
                 "damage": 1200,
                 "range": 14.33,
                 "reload": 2.5,
@@ -519,10 +519,10 @@
     },
     "Carl": {
         "desc": "Carl throws his Pickaxe like a boomerang. His Super is a crazy cart spin that clobbers anyone around him.",
-        "health": 4400,
+        "health": 4800,
         "attack": {
             "name": "Pickaxe",
-            "damage": 600,
+            "damage": 800,
             "desc": "Carl throws his Pickaxe like a boomerang. After he catches the returning Pickaxe, he can throw it again.",
             "range": 8,
             "reload": 0.5,
@@ -557,14 +557,14 @@
     },
     "Piper": {
         "desc": "Piper's sniper shots do more damage the farther they travel. Her Super drops grenades at her feet, while Piper herself leaps away!",
-        "health": 2400,
+        "health": 2600,
         "attack": {
             "name": "Gunbrella",
-            "damage": 1520,
+            "damage": 520,
             "desc": "Piper fires a sniper shot from the tip of her parasol. The shot gains more oompf the farther it flies!",
             "range": 10,
             "reload": 2.3,
-            "projectiles": 1,
+            "projectiles": 3,
             "extra": "Damage at max range"
         },
         "speed": 720,
@@ -572,7 +572,7 @@
         "unlockTrp": -1,
         "ult": {
             "name": "Poppin'",
-            "damage": 900,
+            "damage": 750,
             "desc": "Piper hops away to avoid pushy suitors. She leaves them a lady's favor though: live grenades from her garter!",
             "range": 8.67,
             "projectiles": 4,
@@ -594,10 +594,10 @@
     },
     "Pam": {
         "desc": "Pam shoots from the hip, peppering targets with shrapnel. Her Super is a healing turret that restores her and teammates' health!",
-        "health": 4500,
+        "health": 3400,
         "attack": {
             "name": "Scrapstorm",
-            "damage": 260,
+            "damage": 140,
             "desc": "Pam sprays a large area with bursts of scrap metal. Safety goggles advised!",
             "range": 9,
             "reload": 1.3,
@@ -612,9 +612,9 @@
             "desc": "Pam's healing turret will fix up her and teammates who stay in its area of effect.",
             "extra": "Heal per second",
             "spawn": {
-                "health": 2800,
+                "health": 2000,
                 "damage": null,
-                "heal": 320,
+                "heal": 310,
                 "range": 5,
                 "name": "Healing Turret"
             },
@@ -635,7 +635,7 @@
         "health": 3800,
         "attack": {
             "name": "Shovel Swings",
-            "damage": 1200,
+            "damage": 1600,
             "desc": "Mortis dashes forward with a sharp swing of his shovel, creating business opportunities for himself.",
             "range": 2.67,
             "reload": 2.4,
@@ -646,7 +646,8 @@
         "unlockTrp": -1,
         "ult": {
             "name": "Life Blood'",
-            "damage": 900,
+            "damage": 1100,
+            "heal": 550,
             "desc": "Mortis calls forth a swarm of vampire bats that drain the health of his enemies while restoring his. Creepy!",
             "range": 11,
             "projectiles": 1
@@ -667,21 +668,21 @@
     },
     "Frank": {
         "desc": "Frank swings his hammer at enemies, sending a shockwave. His Super is an especially powerful blow that stuns enemies!",
-        "health": 6400,
+        "health": 6600,
         "attack": {
             "name": "Hammer Hit",
-            "damage": 1200,
+            "damage": 500,
             "desc": "Frank takes a while to wind up his hammer blow, but the hit is so hard it sends a shockwave.",
             "range": 6,
             "reload": 0.8,
-            "projectiles": 1
+            "projectiles": 2
         },
         "speed": 770,
         "rarity": "Epic",
         "unlockTrp": -1,
         "ult": {
             "name": "Stunning Blow",
-            "damage": 1200,
+            "damage": 1400,
             "desc": "Frank's greatest hit sends a shockwave that destroys environment and stuns enemies for a while.",
             "range": 7,
             "projectiles": 1
@@ -701,10 +702,10 @@
     },
     "Tara": {
         "desc": "Tara's triple tarot card attack pierces through enemies. Her Super is a black hole that sucks in all nearby enemies, causing damage!",
-        "health": 3200,
+        "health": 3400,
         "attack": {
             "name": "Triple Tarot",
-            "damage": 420,
+            "damage": 430,
             "desc": "Tara flicks her wrist, snapping off three tarot cards that pierce through enemies. Quite a trick!",
             "range": 8,
             "reload": 2,
@@ -716,7 +717,7 @@
         "unlockTrp": -1,
         "ult": {
             "name": "Gravity",
-            "damage": 800,
+            "damage": 2400,
             "desc": "Tara conjures up a mind-boggling gravity well! Enemies in the area of effect get pulled in, crashing together painfully hard.",
             "range": 6.67,
             "projectiles": 1
@@ -736,14 +737,14 @@
     },
     "Spike": {
         "desc": "Spike throws cactus grenades that send needles flying, and a show-stopping Super: a field of cactus spines that slows down and damages enemies!",
-        "health": 2400,
+        "health": 2500,
         "attack": {
             "name": "Needle Grenade",
-            "damage": 520,
+            "damage": 260,
             "desc": "Spike fires off a small cactus that explodes, shooting spikes in different directions.",
             "range": 7.67,
             "reload": 2,
-            "projectiles": 6,
+            "projectiles": 12,
             "extra": "Damage per spike"
         },
         "speed": 720,
@@ -751,7 +752,7 @@
         "unlockTrp": -1,
         "ult": {
             "name": "Stick Around!",
-            "damage": 400,
+            "damage": 800,
             "desc": "Spike lobs a thorny grenade. Enemies caught in the blast area take damage and are slowed down.",
             "range": 7.67,
             "projectiles": 1,
@@ -772,11 +773,11 @@
     },
     "Crow": {
         "desc": "Crow fires a trio of poisoned daggers. As a Super move he leaps, firing daggers both on jump and on landing!",
-        "health": 2400,
+        "health": 2800,
         "attack": {
             "name": "Switchblade",
-            "damage": 320,
-            "poison_damage": 80,
+            "damage": 400,
+            "poison_damage": 100,
             "desc": "Crow throws a triple threat of daggers. Enemies nicked by the poisoned blades will take damage over time.",
             "range": 8.67,
             "reload": 1.4,
@@ -788,10 +789,10 @@
         "unlockTrp": -1,
         "ult": {
             "name": "Swoop",
-            "damage": 400,
+            "damage": 120,
             "desc": "Crow takes to the skies, throwing a ring of poisoned daggers around him both on take-off and landing.",
             "range": 8.67,
-            "projectiles": 14,
+            "projectiles": 28,
             "extra": "Damage per dagger"
         },
         "sp1": {
@@ -812,14 +813,14 @@
     },
     "Leon": {
         "desc": "Leon shoots a quick salvo of blades at his target. His Super trick is a smoke bomb that makes him invisible for a little while!",
-        "health": 3200,
+        "health": 3400,
         "attack": {
             "name": "Spinner Blades",
-            "damage": 309,
+            "damage": 160,
             "desc": "Leon flicks his wrist and fires four Spinner Blades. The blades deal less damage the farther they travel.",
             "range": 9.67,
             "reload": 1.9,
-            "projectiles": 4,
+            "projectiles": 12,
             "extra": "Damage per blade"
         },
         "speed": 820,
@@ -853,11 +854,11 @@
         "health": 3600,
         "attack": {
             "name": "Smoke Blast",
-            "damage": 900,
+            "damage": 200,
             "desc": "Gene shoots a solid ball of magical smoke from his lamp. If the ball doesn't hit a target, it splits up and spreads the damage in a cone.",
             "range": 8.67,
             "reload": 2,
-            "projectiles": 2,
+            "projectiles": 6,
             "extra": "Damage"
         },
         "speed": 720,
@@ -865,7 +866,7 @@
         "unlockTrp": -1,
         "ult": {
             "name": "Magic Hand",
-            "damage": 1200,
+            "damage": 2400,
             "desc": "Gene launches a magical hand from his lamp. If the hand hits an enemy, they get pulled back to Gene's location!",
             "range": 7.67,
             "projectiles": 1,
@@ -889,7 +890,7 @@
         "health": 2200,
         "attack": {
             "name": "Minimines",
-            "damage": 680,
+            "damage": 930,
             "desc": "Tick lobs a cluster of mines that separate before landing. The mines explode on contact with a target, or after a few seconds.",
             "range": 7,
             "reload": 2.2,
